@@ -1,0 +1,23 @@
+<style>
+.section {
+	margin-bottom: 35%;
+}
+
+body {
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+#text {
+	font-size: 110%;
+}
+
+#myName {
+	float: left;
+	padding-left: 5%;
+	padding-top: 3%;
+	
+	width: 20%;
+	
+	font-size: 150%;
+}
+</style>
