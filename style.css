@@ -7,6 +7,15 @@ body {
 	font-family: "Times New Roman", Georgia, Serif;
 }
 
+/* unvisited link */
+a:link { color: rgba(238, 46, 100, 1); text-decoration: none; }
+/* visited link */
+a:visited { color: green; text-decoration: none; }
+/* mouse over link */
+a:hover { color: hotpink; text-decoration: underline; }
+/* selected link */
+a:active { color: blue; text-decoration: underline; }
+
 #text {
 	font-size: 110%;
 }
@@ -19,7 +28,9 @@ body {
 	padding-left: 5%;
 	padding-top: 3%;
 }
+
 #myName {
 	font-size: 250%;
 }
+
 </style>
