@@ -65,4 +65,11 @@ li {
 	margin-left: 2%;
 }
 
+img.mainPage_SVG {
+	position: fixed;
+	width: 25%;
+	right: 5%;
+	float: none;
+}
+
 </style>
