@@ -7,10 +7,7 @@
   <link href="style.css" rel="stylesheet">
 </head>
 
-<body onload="myFunction()" style="margin:0;">
-	<div class="loader"></div>
-	
-	<div style="display:none;" id="myDiv" class="animate-bottom">
+<body>
 	<div id="text">
 		<div id="top">
 			<img src="HomePage/MyProfile.jpg" style="width: 29%; margin-left: 1%; margin-top: 1%; float:left; border-radius: 15px;">
@@ -54,20 +51,6 @@
 		
 		<a href="#top"><img src="SVG-Throbber/Homepage-SVG.svg" class="mainPage_SVG"></a>
 	</div>
-	</div>
-	
-	<script>
-var myVar;
-
-function myFunction() {
-    myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
-</script>
 </body>
 	
 </html>
