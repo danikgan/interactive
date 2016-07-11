@@ -39,7 +39,7 @@ li {
 }
 
 .personalInfo {
-	background-color: #a3fcf4;
+	background-color: rgba(161, 220, 251, 0.5);
 	border-radius: 15px;
 	padding: 3%;
 }
@@ -49,6 +49,13 @@ li {
 	border-radius: 15px;
 	padding: 3%;
 }
+
+.mainTextBox_coloured {
+	background-color: rgba(144, 255, 233, 0.55);
+	border-radius: 15px;
+	padding: 3%;
+}
+
 
 .backButton {
 	padding: 1%;
