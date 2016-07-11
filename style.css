@@ -70,6 +70,8 @@ img.mainPage_SVG {
 	width: 25%;
 	right: 5%;
 	float: none;
+	background-color: rgba(144, 255, 233, 0.55);
+	border-radius: 15px;
 }
 
 #myPhrase {
