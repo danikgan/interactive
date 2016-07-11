@@ -1,0 +1,27 @@
+<style >
+
+body {
+	background-color: #ecebe8;
+	font-size: 150%;
+		  
+	margin-left: 10%;
+	margin-right: 10%;
+}
+	  
+section { background: white; }
+
+p { margin-right: 5%; }
+
+ul { margin-right: 5%; }
+
+li { margin-left: 5%; }
+
+img { width: 95%; display: inline-block; margin-bottom: -2%;}
+
+ol {font-weight: bold; font-size: 150%;}
+
+h1 { font-size: 200%; }
+
+h2 { font-size: 125%; margin-left: 5%; margin-right: 5%; }
+
+</style>
