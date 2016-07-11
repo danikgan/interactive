@@ -50,4 +50,12 @@ li {
 	padding: 3%;
 }
 
+.backButton {
+	padding: 1%;
+	font-size: 125%;
+	background-color: white;
+	border-radius: 15px;
+	margin-left: 2%;
+}
+
 </style>
