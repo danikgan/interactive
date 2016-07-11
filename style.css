@@ -79,4 +79,22 @@ img.mainPage_SVG {
 	font-size: 90%;
 }
 
+.variation {
+	width: 20%;
+	padding-left: 5%;
+	margin-left: 3%;
+	display: inline-block;
+	margin-bottom: 3%;
+}
+
+.miniVariation {
+	background-color: white;
+	border-radius: 5px;
+	width: 15%;
+	height: 15%;
+	padding: 1%;
+	display: inline-block;
+	margin-bottom: 2%;
+}
+
 </style>
