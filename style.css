@@ -38,4 +38,16 @@ li {
 	padding-left: 10%;
 }
 
+.personalInfo {
+	background-color: #b2f9d0;
+	border-radius: 15px;
+	padding: 3%;
+}
+
+.mainTextBox {
+	background-color: white;
+	border-radius: 15px;
+	padding: 3%;
+}
+
 </style>
