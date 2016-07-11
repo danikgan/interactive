@@ -24,7 +24,7 @@ a:active { color: blue; text-decoration: underline; }
 #headerSize {
 	float: left;
 	
-	width: 37%;
+	width: 35%;
 	
 	padding-left: 5%;
 	padding-top: 3%;
@@ -69,7 +69,7 @@ img.mainPage_SVG {
 	position: fixed;
 	width: 23%;
 	right: 2%;
-	top: 2%;
+	top: 3%;
 	float: none;
 	background-color: rgba(144, 255, 233, 0.55);
 	border-radius: 15px;
