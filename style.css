@@ -39,11 +39,9 @@ a:active { color: blue; text-decoration: underline; }
 	min-width: 350px;
 }
 
-#myName {
-	font-size: 250%;
-}
+#myName { font-size: 250%; }
 
-.personalInfo {
+.siteFeatures {
 	background-color: rgba(161, 220, 251, 0.5);
 	border-radius: 15px;
 	padding: 3%;
@@ -116,30 +114,47 @@ img.mainPage_SVG {
 		margin-top: 1%;
 		
 		border-radius: 10px;
-		min-width: 70%;
+		min-width: 0;
+	}
+	
+	body {
+		margin: 3%;
+		font-size: 100%;
 	}
 		
 	#header {		
 		width: 70%;
+		padding: 0;
 		
 		padding-left: 1%;
 		padding-right: 1%;
 		padding-top: 5%;
+		
+		min-width: 0%;
 	}
 	
 	img.mainPage_SVG {
+		min-width: 0;
+		
 		position: fixed;
-		width: 20%;
-		right: 2%;
-		top: 3%;
 		float: none;
+		
+		width: 23%;
+		right: 2%;
+		top: 2%;
+		
 		background-color: rgba(144, 255, 233, 0.55);
 		border-radius: 10px;
 	}
 	
 	.mainTextBox {
-		background-color: white;
 		border-radius: 10px;
 		padding: 3%;
 	}
+	
+	.siteFeatures {
+	border-radius: 10px;
+	padding: 3%;
+	padding-bottom: 0%;
+}
 }
