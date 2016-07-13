@@ -1,8 +1,4 @@
 /* The first link */
-.section {
-	margin-bottom: 35%;
-}
-
 body {
 	font-family: "Times New Roman", Georgia, Serif;
 	background-color: #dff9fb;
@@ -18,7 +14,7 @@ a:hover { color: hotpink; text-decoration: underline; }
 a:active { color: blue; text-decoration: underline; }
 
 #text {
-	font-size: 110%;
+	font-size: 100%;
 }
 
 #myProfilePic {
@@ -60,12 +56,13 @@ a:active { color: blue; text-decoration: underline; }
 	padding: 3%;
 }
 
+/*
 .mainTextBox_coloured {
 	background-color: rgba(144, 255, 233, 0.55);
 	border-radius: 15px;
 	padding: 3%;
 }
-
+*/
 
 .backButton {
 	padding: 1%;
@@ -86,10 +83,7 @@ img.mainPage_SVG {
 	min-width: 100px;
 }
 
-#myPhrase {
-	font-size: 90%;
-}
-
+/* 25 Variation Page */
 .variation {
 	width: 20%;
 	padding-left: 5%;
@@ -112,37 +106,40 @@ img.mainPage_SVG {
 	display: inline-block;
 }
 
-
+/* Overrides */
 @media screen and (max-width: 1040px) {
-	  #myProfilePic {
+	#myProfilePic {
 		width: 70%;
 		
-		margin-right: 3%;
-		margin-left: 10px;
-		margin-top: 10px;
-		float: left;
-		border-radius: 15px;
+		margin-right: 1%;
+		margin-left: 1%;
+		margin-top: 1%;
+		
+		border-radius: 10px;
 		min-width: 70%;
 	}
 		
-	#header {
-		float: left;
-		
+	#header {		
 		width: 70%;
 		
-		padding-left: 10px;
-		padding-right: 30px;
+		padding-left: 1%;
+		padding-right: 1%;
 		padding-top: 5%;
 	}
 	
 	img.mainPage_SVG {
 		position: fixed;
-		width: 23%;
+		width: 20%;
 		right: 2%;
 		top: 3%;
 		float: none;
 		background-color: rgba(144, 255, 233, 0.55);
-		border-radius: 15px;
-		min-width: 100px;
+		border-radius: 10px;
+	}
+	
+	.mainTextBox {
+		background-color: white;
+		border-radius: 10px;
+		padding: 3%;
 	}
 }
