@@ -1,4 +1,3 @@
-<style>
 /* The first link */
 .section {
 	margin-bottom: 35%;
@@ -113,4 +112,37 @@ img.mainPage_SVG {
 	display: inline-block;
 }
 
-</style>
+
+@media screen and (max-width: 1040px) {
+	  #myProfilePic {
+		width: 70%;
+		
+		margin-right: 3%;
+		margin-left: 10px;
+		margin-top: 10px;
+		float: left;
+		border-radius: 15px;
+		min-width: 70%;
+	}
+		
+	#header {
+		float: left;
+		
+		width: 70%;
+		
+		padding-left: 10px;
+		padding-right: 30px;
+		padding-top: 5%;
+	}
+	
+	img.mainPage_SVG {
+		position: fixed;
+		width: 23%;
+		right: 2%;
+		top: 3%;
+		float: none;
+		background-color: rgba(144, 255, 233, 0.55);
+		border-radius: 15px;
+		min-width: 100px;
+	}
+}
