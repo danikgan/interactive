@@ -1,0 +1,135 @@
+<style>
+/* The first link */
+.section {
+	margin-bottom: 35%;
+}
+
+body {
+	font-family: "Times New Roman", Georgia, Serif;
+	background-color: #dff9fb;
+}
+
+/* unvisited link */ a:link { color: rgba(238, 46, 100, 1); text-decoration: none; }
+/* visited link */ a:visited { color: green; text-decoration: none; }
+/* mouse over link */ a:hover { color: hotpink; text-decoration: underline; }
+/* selected link */ a:active { color: blue; text-decoration: underline; }
+
+img.mainPage_SVG {
+	position: fixed;
+	width: 23%;
+	right: 2%;
+	top: 3%;
+	float: none;
+	background-color: rgba(144, 255, 233, 0.55);
+	border-radius: 15px;
+	min-width: 100px;
+}
+
+.backButton {
+	background-color: white;
+	font-size: 125%;
+	border-radius: 15px;
+	
+	padding: 1%;
+	
+	margin-left: 2%;
+}
+
+.variation {
+	border-radius: 15px;
+	/*background-image: url("SVGs/house-of-horror.svg") no-repeat;*/
+	background-color: white;
+	
+	padding: 2%;
+	
+	margin-left: 30px;
+	margin-bottom: 30px;
+	
+	vertical-align: top;
+	display: inline-block;
+}
+
+#one {background-color: yellow;}
+a.one:link { color: yellow; text-decoration: none; }
+a.one:visited { color: yellow; text-decoration: none; }
+a.one:hover { color: blue; text-decoration: none; }
+a.one:active { color: blue; text-decoration: none; }
+
+#two {background-color: aqua;}
+a.two:link { color: aqua; text-decoration: none; }
+a.two:visited { color: aqua; text-decoration: none; }
+a.two:hover { color: green; text-decoration: none; }
+a.two:active { color: green; text-decoration: none; }
+
+#three {background-color: black;}
+a.three:link { color: black; text-decoration: none; }
+a.three:visited { color: black; text-decoration: none; }
+a.three:hover { color: hotpink; text-decoration: none; }
+a.three:active { color: hotpink; text-decoration: none; }
+
+#four {background-color: lime;}
+a.four:link { color: lime; text-decoration: none; }
+a.four:visited { color: lime; text-decoration: none; }
+a.four:hover { color: grey; text-decoration: none; }
+a.four:active { color: grey; text-decoration: none; }
+
+#five {background-color: blue;}
+a.five:link { color: blue; text-decoration: none; }
+a.five:visited { color: blue; text-decoration: none; }
+a.five:hover { color: yellow; text-decoration: none; }
+a.five:active { color: yellow; text-decoration: none; }
+
+#six {background-color: green;}
+a.six:link { color: green; text-decoration: none; }
+a.six:visited { color: green; text-decoration: none; }
+a.six:hover { color: aqua; text-decoration: none; }
+a.six:active { color: aqua; text-decoration: none; }
+
+#seven {background-color: hotpink;}
+a.seven:link { color: hotpink; text-decoration: none; }
+a.seven:visited { color: hotpink; text-decoration: none; }
+a.seven:hover { color: black; text-decoration: none; }
+a.seven:active { color: black; text-decoration: none; }
+
+#eight {background-color: grey;}
+a.eight:link { color: grey; text-decoration: none; }
+a.eight:visited { color: grey; text-decoration: none; }
+a.eight:hover { color: lime; text-decoration: none; }
+a.eight:active { color: lime; text-decoration: none; }
+
+#nine {background-color: maroon;}
+a.nine:link { color: maroon; text-decoration: none; }
+a.nine:visited { color: maroon; text-decoration: none; }
+a.nine:hover { color: navy; text-decoration: none; }
+a.nine:active { color: navy; text-decoration: none; }
+
+#ten {background-color: navy;}
+a.ten:link { color: navy; text-decoration: none; }
+a.ten:visited { color: navy; text-decoration: none; }
+a.ten:hover { color: maroon; text-decoration: none; }
+a.ten:active { color: maroon; text-decoration: none; }
+
+
+/*  background-image: url(SVGs/house-of-horror.svg)
+	
+	
+	a:link {
+    color: green;
+}
+
+ visited link 
+a:visited {
+    color: green;
+}
+
+ mouse over link 
+a:hover {
+    color: red;
+}
+
+ selected link 
+a:active {
+    color: yellow;
+} */
+
+</style>
