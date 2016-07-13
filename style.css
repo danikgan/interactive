@@ -70,7 +70,7 @@ a:active { color: blue; text-decoration: underline; }
 
 .backButton {
 	padding: 1%;
-	font-size: 125%;
+	font-size: 100%;
 	background-color: white;
 	border-radius: 15px;
 	margin-left: 2%;
