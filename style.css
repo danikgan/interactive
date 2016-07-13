@@ -79,9 +79,11 @@ img.mainPage_SVG {
 	background-color: rgba(144, 255, 233, 0.55);
 	border-radius: 15px;
 	min-width: 100px;
+	
+	z-index: 5;
 }
 
-/* 25 Variation Page */
+/*----------------------------------- 25 Variation Page -----------------------------------*/
 .variation {
 	width: 20%;
 	padding-left: 5%;
@@ -104,7 +106,8 @@ img.mainPage_SVG {
 	display: inline-block;
 }
 
-/* Overrides */
+
+/*----------------------------------- Overrides -----------------------------------*/
 @media screen and (max-width: 1040px) {
 	#myProfilePic {
 		width: 70%;
@@ -123,7 +126,7 @@ img.mainPage_SVG {
 	}
 		
 	#header {		
-		width: 70%;
+		width: auto;
 		padding: 0;
 		
 		padding-left: 1%;
@@ -145,6 +148,8 @@ img.mainPage_SVG {
 		
 		background-color: rgba(144, 255, 233, 0.55);
 		border-radius: 10px;
+		
+		z-index: 5;
 	}
 	
 	.mainTextBox {
@@ -153,8 +158,38 @@ img.mainPage_SVG {
 	}
 	
 	.siteFeatures {
-	border-radius: 10px;
-	padding: 3%;
-	padding-bottom: 0%;
-}
+		border-radius: 10px;
+		padding: 3%;
+		padding-bottom: 0%;
+	}
+	
+	.backButton {
+		padding: 3%;
+		font-size: 100%;
+		
+		background-color: white;
+		
+		border-radius: 10px;
+		margin-left: 2%;
+	}
+	
+	/*----------------------------------- 25 Variation Page -----------------------------------*/
+	.variation {
+		width: 80%;
+		padding: 3%;
+		
+		display: inline-block;
+	}
+	
+	.miniVariation {
+		background-color: white;
+		border-radius: 10px;
+		
+		width: 20%;
+		height: 20%;
+		padding: 3%;
+		margin: 3%;
+		
+		display: inline-block;
+	}
 }
