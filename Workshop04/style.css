@@ -39,10 +39,6 @@ img.mainPage_SVG {
 	
 	vertical-align: top;
 	display: inline-block;
-	
-	animation-name: transitionHeader;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
 }
 
 .backButton {
