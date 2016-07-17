@@ -175,14 +175,14 @@ img.mainPage_SVG {
 	#myProfilePic {
 		width: 70%;
 		
-		margin: 1% 1% 1% 1%;
+		margin: 0% 1% 1% 1%;
 		
 		border-radius: 10px;
 		min-width: 0;
 	}
 	
 	body {
-		margin: 3%;
+		padding: 3%;
 		font-size: 125%;
 	}
 		
