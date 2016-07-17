@@ -1,6 +1,7 @@
 /* The first link */
 body {
 	background-color: #dff9fb;
+	padding: 1%;
 }
 
 /* unvisited link */
@@ -18,11 +19,9 @@ a:active { color: green; text-decoration: underline; }
 
 /*----------------------------------- Animated Main Page -----------------------------------*/
 #myProfilePic {
-	width: 32%;
+	width: 33%;
 	
 	margin-right: 3%;
-	margin-left: 1%;
-	margin-top: 1%;
 	float: left;
 	border-radius: 15px;
 	
@@ -35,12 +34,12 @@ a:active { color: green; text-decoration: underline; }
 
 @keyframes transitionUp {
 	0% {
-		margin-top: 6%;
+		margin-top: 5%;
 	    opacity: 0;
 	    filter: alpha(opacity=0);
     }
     100% {
-	    margin-top: 1%;
+	    margin-top: 0%;
 	    opacity: 1;
 	    filter: alpha(opacity=100);
     }
@@ -53,7 +52,7 @@ a:active { color: green; text-decoration: underline; }
 	width: 40%;
 	padding-left: 1%;
 	padding-right: 3%;
-	padding-top: 5%;
+	padding-top: 3%;
 }
 
 #myName { font-size: 250%; }
