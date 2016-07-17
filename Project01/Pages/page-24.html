@@ -9,22 +9,168 @@
   
   <link href="../../style.css" rel="stylesheet">
   <link href="../../Files/icon.png" rel="icon">
+  
+  <style>
+		div.flag { /* mouse over link */  
+			background-color: #d1dee5; 
+			padding: 3%; 
+			border-radius: 0px 100px 100px 0px; 
+			width: 20%;  
+			margin-bottom: 2%; 
+			
+			animation-name: flag;
+		    animation-duration: 3s;
+		    animation-iteration-count: infinite;
+		} 
+		
+		@keyframes flag {
+			0% {
+			    margin-left: 5%;
+			    border-radius: 100px 0px 0px 100px;
+		    }
+		    50% {
+			    margin-left: 70%;
+			    border-radius: 0px 100px 100px 0px;
+		    }
+		    100% {
+			    margin-left: 5%;
+			    border-radius: 100px 0px 0px 100px;
+		    }
+	    }
+	    
+		
+		div.boat {
+			background-color: #9a5e2c; 
+			padding: 3%; 
+			border-radius: 0px 0px 100px 100px; 
+			width: 30%; 
+			
+			animation-name: boat;
+		    animation-duration: 3s;
+		    animation-iteration-count: infinite;
+		}
+		
+		@keyframes boat {
+			0% {
+			    margin-left: 5%;
+		    }
+		    50% {
+			    margin-left: 60%;
+		    }
+		    100% {
+			    margin-left: 5%;
+		    }
+	    }
+	    
+	    
+	    div.waveOne {
+		    background-color: #3f8cf6; 
+		    padding: 2%; 
+		    width: 43%; 
+		    display: inline-block; 
+		    border-radius: 20px 0px 0px 0px;
+		    
+		    animation-name: waveOne;
+		    animation-duration: 3s;
+		    animation-iteration-count: infinite;
+	    }
+	    
+	    @keyframes waveOne {
+			0% {
+			    border-radius: 100px 0px 0px 0px;
+		    }
+		    50% {
+			    border-radius: 0px 100px 0px 0px;
+		    }
+		    100% {
+			    border-radius: 100px 0px 0px 0px;
+		    }
+	    }
+	    
+	    div.waveTwo {
+		    background-color: #3f8cf6; 
+		    padding: 2%; 
+		    width: 43%; 
+		    display: inline-block; 
+		    border-radius: 0px 20px 0px 0px;
+		    
+		    animation-name: waveTwo;
+		    animation-duration: 3s;
+		    animation-iteration-count: infinite;
+	    }
+	    
+	    @keyframes waveTwo {
+			0% {
+			    border-radius: 0px 100px 0px 0px;
+		    }
+		    50% {
+			    border-radius: 100px 0px 0px 0px;
+		    }
+		    100% {
+			    border-radius: 0px 100px 0px 0px;
+		    }
+	    }
+  </style>
 </head>
 
 <body>
-	<!--<a href="../../index.html"><img src="../SVG-Throbber/Homepage-SVG.svg" class="mainPage_SVG"></a>-->
+	<h1 style="padding-left: 5%; padding-top: 2%; padding-bottom: 1%">
+		Page 24 of 25 Variations
+	</h1>
+	
+	<div style="font-size: 75%; padding-left: 5%"> 
+		<i> "Best representation of the poem? Let's hope so..." </i> 
+	</div> <br>
+  
+  	<div style="background-color: white; padding: 3%; border-radius: 15px;">
+		<div style="margin-left: 5%;">
+			<p>
+				<h2>A Boat</h2>
+			</p>
+		</div>
+		
 
-  <h1 style="padding-left: 5%; padding-top: 2%; padding-bottom: 1%">Page 24 of 25 Variations</h1>
-  <div style="font-size: 75%; padding-left: 5%"> <i> No style poem starts here... </i> </div>
-  <div style="background-color: white">
-  
-  <p>
-    <br>
-    <h1 align="center"> In Production, Stage 2: Learning CSS Animation.</h1>
-    <br>
-  </p>
-  
-  </div>
+		<div class="flag" align="center">
+			<p>
+				O beautiful <br>
+				was the werewolf <br>
+				in his evil forest. <br>
+			</p>
+		</div>
+		
+		<div class="boat" align="center">
+			<p>
+				We took him <br>
+				to the carnival <br>
+				and he started <br>
+				crying <br>
+				when he saw <br>
+				the Ferris wheel. <br>
+			</p>
+		</div>
+		
+		<div class="waveOne" align="center">
+			<p>
+				Electric <br>
+				green and red tears <br>
+				flowed down <br>
+				his furry cheeks. <br>
+			</p>
+		</div>
+			
+		<div class="waveTwo" align="center">
+			<p>
+				He looked <br>
+				like a boat <br>
+				out on the dark <br>
+				water. <br>
+			</p>
+		</div>
+		
+		<div style="margin: 5%;">
+			<em> — Richard Brautigan</em>
+		</div>
+	</div>
   
 
   <div class="backButton" style="margin: 2%;">
