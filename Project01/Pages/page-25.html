@@ -1,32 +1,176 @@
 <!DOCTYPE html>
 <html>
-<link href="../../style.css" rel="stylesheet">
 
 <head>
-  <title>Page 25 of 25 Variations</title>
+	<title>Page 25 of 25 Variations</title>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	
+	<link href="../../style.css" rel="stylesheet">
   
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  
+	<style>
+	div.top {
+		position: relative;
+		background-color: rgba(255, 207, 221, 0.8);
+		padding: 1%;
+		
+		width: 25%;
+	    
+	    animation-name: top;
+	    animation-duration: 20s;
+	    animation-iteration-count: infinite;
+	}
+	
+	@keyframes top {
+	    0%   {left: 20%;}
+	    15%  {left: 35%;}
+	    30%  {left: 12%;} /* hit */
+	    40%  {left: 35%;}
+	    50%  {left: 4%;} /* hit */
+	    60%  {left: 0%;} /* hit */
+	    70%  {left: 35%;}
+	    85%  {left: 50%;} /* hit */
+	    100% {left: 0%;}
+	}
+	
+	div.bottom {
+		position: relative;
+		background-color: rgba(231, 207, 255, 0.8);
+		padding: 1%;
+		
+		width: 25%;
+	    
+	    animation-name: bottom;
+	    animation-duration: 20s;
+	    animation-iteration-count: infinite;
+	}
+	
+	@keyframes bottom {
+		0%   {left: 0%; top: 55%;}
+		15%  {left: 30%; top: 55%;}
+		30%  {left: 68%; top: 55%;} /* hit */
+		50%  {left: 4%; top: 55%;} /* hit */
+		85%  {left: 40%; top: 55%;} /* hit */
+		100% {left: 0%; top: 55%;}
+	}
+	
+	
+	/*------------------------------------ Balls ------------------------------------*/
+	div.ballOne {
+		font-size: 12px;
+		position: relative;
+		background-color: rgba(255, 231, 89, 1);
+		padding: 5%;
+		
+		border-radius: 1000px;
+		width: 120px;
+		height: 120px;
+	    
+	    animation-name: ballOne;
+	    animation-duration: 20s;
+	    animation-iteration-count: infinite;
+	}
+	
+	@keyframes ballOne {
+	    0%   {left: 0%; top: 25%;}
+	    10%  {left: 45%; top: 30%;} /* ball hit */
+	    30%  {left: 12%; top: 0%;} /* hit */
+	    50%  {left: 4%; top: 68%;} /* hit */
+	    65%  {left: 0%; top: 60%;}
+	    85%  {left: 50%; top: 0%;} /* hit */
+	    100% {left: 0%; top: 25%;}
+	}
+	
+	div.ballTwo {
+		font-size: 15px;
+		position: relative;
+		background-color: rgba(255, 110, 53, 1);
+		padding: 5%;
+		
+		border-radius: 1000px;
+		width: 120px;
+		height: 120px;
+	    
+	    animation-name: ballTwo;
+	    animation-duration: 20s;
+	    animation-iteration-count: infinite;
+	}
+	
+	@keyframes ballTwo {
+	    0%   {left: 78%; top: 35%;}
+	    10%  {left: 45%; top: 30%;} /* ball hit */
+	    20%  {left: -2%; top: 35%;}
+	    30%  {left: 68%; top: 55%;} /* hit */
+	    35%  {left: 78%; top: 50%;}
+	    60%  {left: 0%; top: -14%;} /* hit */
+	    75%  {left: 78%; top: 35%;}
+	    85%  {left: 40%; top: 55%;} /* hit */
+	    
+	    100% {left: 78%; top: 35%;}
+	}
+	</style>
 </head>
 
 <body>
-	<!--<a href="../../index.html"><img src="../SVG-Throbber/Homepage-SVG.svg" class="mainPage_SVG"></a>-->
+	<!--<a href="../../index.html"><img src="../SVG-Throbber/GoBack.svg" class="mainPage_SVG"></a>-->
 
   <h1 style="padding-left: 5%; padding-top: 2%; padding-bottom: 1%">Page 25 of 25 Variations</h1>
-  <div style="font-size: 75%; padding-left: 5%"> <i> No style poem starts here... </i> </div>
-  <div style="background-color: white">
+  <div style="font-size: 75%; padding-left: 5%"> <i> "Let's play some game! Please, try to enjoy it... Took me half a day to create it..." </i> </div> <br>
+  <div style="background-color: white; padding: 2%; border-radius: 15px; height: 1500px; width: 800px; margin: 0 2% 0 2%">
+	  
+		<h1 style="position: fixed; top: 5%; z-index: 2;">
+			A Boat
+		</h1>
+	  
+		<div class="top" align="justify">
+			<p>
+				O beautiful 
+				was the werewolf 
+				in his evil forest.
+			</p>
+		</div>
+		
+		<div class="ballOne" align="center">
+			<p>
+				We took him <br>
+				to the carnival <br>
+				and he started <br>
+				crying <br>
+				when he saw <br>
+				the Ferris wheel. <br>
+			</p>
+		</div>
+		
+		<div class="ballTwo" align="center">
+			<p>
+				Electric <br>
+				green and red tears <br>
+				flowed down <br>
+				his furry cheeks.
+			</p>
+		</div>
+		
+		<div class="bottom" align="justify">
+			<p>
+				He looked 
+				like a boat 
+				out on the dark 
+				water. 
+			</p>
+		</div>
+		
+		
+		<em style="position: fixed; bottom: 3%; z-index: 2;">
+		  — Richard Brautigan
+		</em>
   
-  <p>
-    <br>
-    <h1 align="center"> In Production, Stage 2: Learning CSS Animation.</h1>
-    <br>
-  </p>
   
   </div>
   
-  
-  <br>
-  <div class="backButton" style="margin-right: 2%;">
+
+  <div class="backButton" style="margin: 2%;">
 	  <div style="display: inline-block; float: left;">
 		  <a href="../../index.html">
 			  Home Page
