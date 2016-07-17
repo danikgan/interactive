@@ -255,6 +255,19 @@ img.mainPage_SVG {
 		
 		display: inline-block;
 	}
+	
+	@keyframes transitionUp {
+	0% {
+		margin-top: 2%;
+	    opacity: 0;
+	    filter: alpha(opacity=0);
+    }
+    100% {
+	    margin-top: 0%;
+	    opacity: 1;
+	    filter: alpha(opacity=100);
+    }
+}
 }
 
 @media screen and (max-width: 350px) {
