@@ -4,7 +4,7 @@ h1.hOne {
 
 .image {
 	margin: 0 5% 3% 5%;
-	width: 90%;
+	width: 500px;
 	
 }
 
@@ -178,5 +178,10 @@ h1.hOne {
     -o-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
+	}
+	
+	.image {
+		margin: 0 5% 3% 5%;
+		width: 90%;
 	}
 }
