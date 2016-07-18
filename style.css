@@ -195,10 +195,8 @@ img.mainPage_SVG {
 		padding-bottom: 0%;
 	}
 	
-	.backButton {
-		font-size: 125%;
-		
-		padding: 2%;
+	.backButton {		
+		padding: 3%;
 		font-size: 100%;
 		
 		background-color: white;
