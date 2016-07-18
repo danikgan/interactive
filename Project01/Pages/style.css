@@ -38,11 +38,11 @@
 
 @media screen and (max-width: 500px) {
 	.poemBody {
-		font-size: 0.35em;
+		font-size: 0.30em;
 	}
 	
 	.poemBody_extended {
-		font-size: 0.35em;
+		font-size: 0.30em;
 		border-radius: 10px; 
 		padding: 2%;
 	}
