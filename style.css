@@ -84,7 +84,7 @@ a:active { color: green; text-decoration: underline; }
 
 @keyframes transitionUp {
 	0% {
-		margin-top: 5%;
+		margin-top: 3%;
 	    opacity: 0;
 	    filter: alpha(opacity=0);
     }
@@ -255,18 +255,6 @@ img.mainPage_SVG {
 		
 		display: inline-block;
 	}
-	
-	@keyframes transitionUp {
-	0% {
-		margin-top: 3%;
-	    opacity: 0;
-	    filter: alpha(opacity=0);
-    }
-    100% {
-	    margin-top: 0%;
-	    opacity: 1;
-	    filter: alpha(opacity=100);
-    }
 }
 }
 
