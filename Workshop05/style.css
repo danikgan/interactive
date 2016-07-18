@@ -18,7 +18,7 @@ h1.hOne {
 
 
 /*----------------------------------- Overrides -----------------------------------*/
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1450px) {
 	.rotate {
     -webkit-transform: rotate(20deg);
     -moz-transform: rotate(20deg);
@@ -27,7 +27,7 @@ h1.hOne {
     transform: rotate(20deg);
 	}
 }
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1400px) {
 	.rotate {
     -webkit-transform: rotate(40deg);
     -moz-transform: rotate(40deg);
@@ -36,7 +36,7 @@ h1.hOne {
     transform: rotate(40deg);
 	}
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1350px) {
 	.rotate {
     -webkit-transform: rotate(60deg);
     -moz-transform: rotate(60deg);
@@ -45,7 +45,7 @@ h1.hOne {
     transform: rotate(60deg);
 	}
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1300px) {
 	.rotate {
     -webkit-transform: rotate(80deg);
     -moz-transform: rotate(80deg);
@@ -54,7 +54,7 @@ h1.hOne {
     transform: rotate(80deg);
 	}
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1250px) {
 	.rotate {
     -webkit-transform: rotate(100deg);
     -moz-transform: rotate(100deg);
@@ -63,7 +63,7 @@ h1.hOne {
     transform: rotate(100deg);
 	}
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
 	.rotate {
     -webkit-transform: rotate(120deg);
     -moz-transform: rotate(120deg);
@@ -72,7 +72,7 @@ h1.hOne {
     transform: rotate(120deg);
 	}
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1150px) {
 	.rotate {
     -webkit-transform: rotate(140deg);
     -moz-transform: rotate(140deg);
@@ -90,7 +90,7 @@ h1.hOne {
     transform: rotate(160deg);
 	}
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1050px) {
 	.rotate {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -99,7 +99,7 @@ h1.hOne {
     transform: rotate(180deg);
 	}
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 	.rotate {
     -webkit-transform: rotate(200deg);
     -moz-transform: rotate(200deg);
@@ -108,7 +108,7 @@ h1.hOne {
     transform: rotate(200deg);
 	}
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
 	.rotate {
     -webkit-transform: rotate(220deg);
     -moz-transform: rotate(220deg);
@@ -117,7 +117,7 @@ h1.hOne {
     transform: rotate(220deg);
 	}
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
 	.rotate {
     -webkit-transform: rotate(240deg);
     -moz-transform: rotate(240deg);
@@ -126,7 +126,7 @@ h1.hOne {
     transform: rotate(240deg);
 	}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
 	.rotate {
     -webkit-transform: rotate(260deg);
     -moz-transform: rotate(260deg);
@@ -135,7 +135,7 @@ h1.hOne {
     transform: rotate(260deg);
 	}
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 	.rotate {
     -webkit-transform: rotate(280deg);
     -moz-transform: rotate(280deg);
@@ -144,7 +144,7 @@ h1.hOne {
     transform: rotate(280deg);
 	}
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 750px) {
 	.rotate {
     -webkit-transform: rotate(300deg);
     -moz-transform: rotate(300deg);
@@ -153,7 +153,7 @@ h1.hOne {
     transform: rotate(300deg);
 	}
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 700px) {
 	.rotate {
     -webkit-transform: rotate(320deg);
     -moz-transform: rotate(320deg);
@@ -162,7 +162,7 @@ h1.hOne {
     transform: rotate(320deg);
 	}
 }
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 650px) {
 	.rotate {
     -webkit-transform: rotate(340deg);
     -moz-transform: rotate(340deg);
@@ -171,12 +171,12 @@ h1.hOne {
     transform: rotate(340deg);
 	}
 }
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 600px) {
 	.rotate {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
 	}
 }
