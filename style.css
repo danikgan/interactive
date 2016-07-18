@@ -228,14 +228,5 @@ img.mainPage_SVG {
 }
 
 @media screen and (max-width: 350px) {
-	.backButton {		
-		padding: 3%;
-		font-size: 95%;
-		
-		background-color: white;
-		
-		border-radius: 10px;
-		margin: 0 0 2% 0;
-	}
 	body { font-size: 100%; }
 }
