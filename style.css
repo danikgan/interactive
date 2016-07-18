@@ -96,7 +96,7 @@ a:active { color: green; text-decoration: underline; }
 	font-size: 100%;
 	background-color: white;
 	border-radius: 15px;
-	margin-left: 2%;
+	margin: 0 2% 2% 2%;
     
 	box-shadow: 5px 5px 15px rgba(122, 162, 168, 0.25);
 }
@@ -140,7 +140,6 @@ img.mainPage_SVG {
 /*----------------------------------- Overrides -----------------------------------*/
 @media screen and (min-width: 1600px) {
 	#myName { font-size: 300%; }
-	body { font-size: 150%; }
 }
 
 @media screen and (max-width: 800px) {
@@ -155,7 +154,7 @@ img.mainPage_SVG {
 	
 	body {
 		padding: 3%;
-		font-size: 125%;
+		font-size: 100%;
 	}
 		
 	#header {		
