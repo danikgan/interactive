@@ -141,7 +141,7 @@ h1.hOne {
 		padding-bottom: 0;
     }
     100% {
-	    padding-bottom: 145%;
+	    padding-bottom: 125%;
     }
 }
 
@@ -190,13 +190,13 @@ h1.hOne {
 
 
 
-.vanishes {
-	animation-name: vanishes;
-    animation-duration: 1s;
+.appears {
+	animation-name: appears;
+    animation-duration: 2s;
     animation-iteration-count: 1;
 }
 
-@keyframes vanishes {
+@keyframes appears {
 	0% {
 		opacity: 0;
     }
@@ -213,7 +213,7 @@ h1.hOne {
 
 @keyframes downMove {
 	0% {
-		padding-bottom: 145%;
+		padding-bottom: 125%;
     }
     100% {
 	    padding-bottom: 0;
