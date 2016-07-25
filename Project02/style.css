@@ -127,10 +127,9 @@ h1.hOne {
 	width: 70%;
 	
 	position: fixed;
+	z-index: 10;
 	top: 20%;
 	left: 10%;
-	
-	margin-top: 10%;
 	
 	background-color: white;
 	border-radius: 15px;
@@ -139,19 +138,70 @@ h1.hOne {
 	box-shadow: 5px 5px 15px rgba(122, 162, 168, 0.25);
 }
 
-.settingsAppears {
-	animation-name: settingsAppears;
-    animation-duration: 2.5s;
+.settingsAppears_1 {
+	animation-name: settingsAppears_1;
+    animation-duration: 2s;
     animation-iteration-count: 1;
 }
 
-@keyframes settingsAppears {
+@keyframes settingsAppears_1 {
 	0% {
 		margin-top: 100%;
 		opacity: 0;
     }
     100% {
 	    margin-top: 10%;
+	    opacity: 1;
+    }
+}
+
+.settingsAppears_2 {
+	animation-name: settingsAppears_2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes settingsAppears_2 {
+	0% {
+		margin-top: 100%;
+		opacity: 0;
+    }
+    100% {
+	    margin-top: 30%;
+	    opacity: 1;
+    }
+}
+
+.settingsAppears_3 {
+	animation-name: settingsAppears_3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes settingsAppears_3 {
+	0% {
+		margin-top: 100%;
+		opacity: 0;
+    }
+    100% {
+	    margin-top: 50%;
+	    opacity: 1;
+    }
+}
+
+.settingsAppears_4 {
+	animation-name: settingsAppears_4;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes settingsAppears_4 {
+	0% {
+		margin-top: 100%;
+		opacity: 0;
+    }
+    100% {
+	    margin-top: 70%;
 	    opacity: 1;
     }
 }
