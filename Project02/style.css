@@ -20,15 +20,15 @@ h1.hOne {
 	bottom: 2%;
 	right: 5%;
 	
-	height: 16%;
+	height: 12%;
 }
 
 .settings {
 	position: fixed;
 	bottom: 2%;
-	right: 42%;
+	right: 44%;
 	
-	height: 16%;
+	height: 12%;
 }
 
 .stats {
@@ -36,7 +36,7 @@ h1.hOne {
 	bottom: 2%;
 	left: 5%;
 	
-	height: 16%;
+	height: 12%;
 }
 
 .backgroundButtons {
@@ -47,12 +47,12 @@ h1.hOne {
 	left: 0;
 	right: 0;
 	
-	height: 20%;
+	height: 16%;
 	width: 100%;
 	
 	border-color: white;
 	border-width: 100px; 
-	border-radius: 10px;
+	border-radius: 10px 10px 0px 0px;
 	opacity: 1;
 		
 	box-shadow: 5px 5px 15px rgba(122, 162, 168, 0.25);
