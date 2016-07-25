@@ -29,10 +29,14 @@ h1.hOne {
 	padding: 5%;
 }
 
+.sliderLocation {
+	display: inline-block; 
+	vertical-align: middle; 
+	width: 18%;
+}
+
 .sliderDirection {
-	width: 25%; 
-	display: inline-block;
-	vertical-align: middle;
+	width: 100%;
 }
 
 
@@ -48,7 +52,7 @@ h1.hOne {
 .settings {
 	position: fixed;
 	bottom: 2%;
-	right: 44%;
+	right: 42%;
 	
 	height: 12%;
 }
