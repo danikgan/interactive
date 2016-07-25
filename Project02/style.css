@@ -1,3 +1,7 @@
+.backgroundBody {
+	background-color: rgba(0, 255, 52, 0.4);
+}
+
 .selectOption {
 	background-color: white;
 	border-radius: 15px;
@@ -15,6 +19,18 @@ h1.hOne {
 	margin: 3% 0 3% 5%;
 }
 
+/*----------------------------------- App Main -----------------------------------*/
+.sliders {
+	background-color: white;
+	
+	width: 70%;
+	border-radius: 30px;
+	margin: 15% 10% 0 10%;
+	padding: 5%;
+}
+
+
+/*----------------------------------- App Down -----------------------------------*/
 .next {
 	position: fixed;
 	bottom: 2%;
