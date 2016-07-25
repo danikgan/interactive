@@ -43,6 +43,10 @@ h1.hOne {
 	padding: 10%;
 }
 
+.allSliders {
+	margin-top: 10%;
+}
+
 .sliderLocation {
 	display: inline-block; 
 	vertical-align: middle; 
@@ -114,7 +118,7 @@ h1.hOne {
 
 
 
-
+/*----------------------------------- Home to Settings -----------------------------------*/
 .vanishes {
 	animation-name: vanishes;
     animation-duration: 1s;
@@ -189,7 +193,7 @@ h1.hOne {
 
 
 
-
+/*----------------------------------- Settings to Home -----------------------------------*/
 .appears {
 	animation-name: appears;
     animation-duration: 2s;
