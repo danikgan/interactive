@@ -141,7 +141,7 @@ h1.hOne {
 		padding-bottom: 0;
     }
     100% {
-	    padding-bottom: 125%;
+	    padding-bottom: 115%;
     }
 }
 
@@ -213,7 +213,7 @@ h1.hOne {
 
 @keyframes downMove {
 	0% {
-		padding-bottom: 125%;
+		padding-bottom: 115%;
     }
     100% {
 	    padding-bottom: 0;
