@@ -22,21 +22,27 @@ h1.hOne {
 /*----------------------------------- App Main -----------------------------------*/
 .sliders {
 	background-color: white;
+	border-radius: 30px;
 	
 	width: 70%;
-	border-radius: 30px;
-	margin: 15% 10% 0 10%;
+
 	padding: 5%;
+}
+
+.sliderDirection {
+	width: 15%; 
+	display: inline-block;
+	vertical-align: middle;
 }
 
 
 /*----------------------------------- App Down -----------------------------------*/
 .next {
 	position: fixed;
-	bottom: 2%;
+	bottom: 3%;
 	right: 5%;
 	
-	height: 12%;
+	height: 10%;
 }
 
 .settings {
