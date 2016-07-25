@@ -17,38 +17,38 @@ h1.hOne {
 
 .next {
 	position: fixed;
-	bottom: 3%;
+	bottom: 2%;
 	right: 5%;
 	
-	width: 25%;
+	height: 16%;
 }
 
 .settings {
 	position: fixed;
-	bottom: 3%;
-	right: 37.5%;
+	bottom: 2%;
+	right: 42%;
 	
-	width: 25%;
+	height: 16%;
 }
 
 .stats {
 	position: fixed;
-	bottom: 3%;
+	bottom: 2%;
 	left: 5%;
 	
-	width: 25%;
+	height: 16%;
 }
 
 .backgroundButtons {
 	background-color: rgba(207,  234,  255, 0.90); 
 		
 	position: fixed; 
-	bottom: 1%; 
-	left: 1%;
-	right: 1%;
+	bottom: 0; 
+	left: 0;
+	right: 0;
 	
 	height: 20%;
-	width: 97%;
+	width: 100%;
 	
 	border-color: white;
 	border-width: 100px; 
