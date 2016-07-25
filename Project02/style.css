@@ -24,15 +24,15 @@ h1.hOne {
 	background-color: white;
 	border-radius: 30px;
 	
-	width: 70%;
+	width: 60%;
 
-	padding: 5%;
+	padding: 10%;
 }
 
 .sliderLocation {
 	display: inline-block; 
 	vertical-align: middle; 
-	width: 18%;
+	width: 25%;
 }
 
 .sliderDirection {
