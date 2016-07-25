@@ -33,10 +33,14 @@ h1.hOne {
 	margin: 3% 0 3% 5%;
 }
 
+
+
+
+
 /*----------------------------------- App Main -----------------------------------*/
 .sliders {
 	background-color: rgba(216, 255, 245, 0.8);
-	border-radius: 30px;
+	border-radius: 15px;
 	
 	width: 60%;
 
@@ -119,6 +123,39 @@ h1.hOne {
 
 
 /*----------------------------------- Home to Settings -----------------------------------*/
+.settingsChoices {
+	width: 70%;
+	
+	position: fixed;
+	top: 20%;
+	left: 10%;
+	
+	margin-top: 10%;
+	
+	background-color: white;
+	border-radius: 15px;
+	padding: 5%;
+	
+	box-shadow: 5px 5px 15px rgba(122, 162, 168, 0.25);
+}
+
+.settingsAppears {
+	animation-name: settingsAppears;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes settingsAppears {
+	0% {
+		margin-top: 100%;
+		opacity: 0;
+    }
+    100% {
+	    margin-top: 10%;
+	    opacity: 1;
+    }
+}
+
 .vanishes {
 	animation-name: vanishes;
     animation-duration: 1s;
@@ -194,6 +231,7 @@ h1.hOne {
 
 
 /*----------------------------------- Settings to Home -----------------------------------*/
+
 .appears {
 	animation-name: appears;
     animation-duration: 2s;
