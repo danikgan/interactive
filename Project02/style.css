@@ -1,6 +1,6 @@
 .backgroundBody {
 	/*background-color: rgba(0, 255, 52, 0.4);*/
-	background-image: url(Files/backgroundPic-i.jpg);
+	background-image: url(Files/backgroundPic.jpg);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	-webkit-background-size: cover;
@@ -58,7 +58,7 @@ h1.hOne {
 .next {
 	position: fixed;
 	bottom: 3%;
-	right: 5%;
+	margin-left: 77%;
 	
 	height: 10%;
 }
@@ -66,7 +66,7 @@ h1.hOne {
 .settings {
 	position: fixed;
 	bottom: 2%;
-	right: 42%;
+	margin-left: 42%;
 	
 	height: 12%;
 }
@@ -74,7 +74,7 @@ h1.hOne {
 .stats {
 	position: fixed;
 	bottom: 2%;
-	left: 5%;
+	margin-left: 5%;
 	
 	height: 12%;
 }
@@ -98,7 +98,6 @@ h1.hOne {
 	box-shadow: 5px 5px 15px rgba(168, 123, 151, 0.25);
 }
 
-
 /*----------------------------------- Animation -----------------------------------*/
 @keyframes transitionUp {
 	0% {
@@ -110,5 +109,151 @@ h1.hOne {
 	    margin-top: 0px;
 	    opacity: 1;
 	    filter: alpha(opacity=100);
+    }
+}
+
+
+
+
+.vanishes {
+	animation-name: vanishes;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes vanishes {
+	0% {
+		opacity: 1;
+    }
+    100% {
+	    opacity: 0;
+    }
+}
+
+.upMove {
+	animation-name: upMove;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes upMove {
+	0% {
+		padding-bottom: 0;
+    }
+    100% {
+	    padding-bottom: 145%;
+    }
+}
+
+.opposite {
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    
+    z-index: 5;
+}
+
+.fromNext_toBack {
+	animation-name: fromNext_toBack;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fromNext_toBack {
+	0% {
+		-moz-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        
+    	margin-left: 77%;
+    }
+    100% {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        
+    	margin-left: 5%;
+    }
+}
+
+
+
+
+
+
+.vanishes {
+	animation-name: vanishes;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes vanishes {
+	0% {
+		opacity: 0;
+    }
+    100% {
+	    opacity: 1;
+    }
+}
+
+.downMove {
+	animation-name: downMove;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes downMove {
+	0% {
+		padding-bottom: 145%;
+    }
+    100% {
+	    padding-bottom: 0;
+    }
+}
+
+.normal {
+	-moz-transform: scaleX(1);
+	-o-transform: scaleX(1);
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+
+.fromBack_toNext {
+	animation-name: fromBack_toNext;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fromBack_toNext {
+	0% {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        
+    	margin-left: 5%;
+    }
+    100% {
+        -moz-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        
+    	margin-left: 77%;
     }
 }
