@@ -2,6 +2,6 @@
 <!-- Generator: Assembly 1.0 - http://assemblyapp.co -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
 	<g id="widget" transform="matrix(1,0,0,1,150,150)">
-		<path d="M23.8416,3.71558 L-117.66,-137.167 L-23.8416,-137.167 L117.66,3.71558 L-15.7912,137.167 L-109.609,137.167 Z" fill="#f6f8ba" fill-opacity="1" stroke-width="3.68071" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+		<path d="M23.8416,3.71558 L-117.66,-137.167 L-23.8416,-137.167 L117.66,3.71558 L-15.7912,137.167 L-109.609,137.167 Z" fill="#ddff00" fill-opacity="1" stroke-width="3.68071" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
 	</g>
 </svg>
