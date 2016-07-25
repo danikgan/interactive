@@ -1,0 +1,55 @@
+.selectOption {
+	background-color: white;
+	border-radius: 15px;
+	padding: 3%;
+	width: 67%;
+	
+	box-shadow: 5px 5px 15px rgba(122, 162, 168, 0.25);
+	
+	animation-name: transitionUp;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+h1.hOne {
+	margin: 3% 0 3% 5%;
+}
+
+.next {
+	position: fixed;
+	bottom: 3%;
+	right: 5%;
+	
+	width: 25%;
+}
+
+.settings {
+	position: fixed;
+	bottom: 3%;
+	right: 37.5%;
+	
+	width: 25%;
+}
+
+.stats {
+	position: fixed;
+	bottom: 3%;
+	left: 5%;
+	
+	width: 25%;
+}
+
+
+/*----------------------------------- Animation -----------------------------------*/
+@keyframes transitionUp {
+	0% {
+		margin-top: 5px;
+	    opacity: 0;
+	    filter: alpha(opacity=0);
+    }
+    100% {
+	    margin-top: 0px;
+	    opacity: 1;
+	    filter: alpha(opacity=100);
+    }
+}
