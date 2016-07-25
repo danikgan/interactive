@@ -141,7 +141,7 @@ h1.hOne {
 /*----------------------------------- Home to Settings -----------------------------------*/
 .settingsAppears_1 {
 	animation-name: settingsAppears_1;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
 }
 
@@ -158,7 +158,7 @@ h1.hOne {
 
 .settingsAppears_2 {
 	animation-name: settingsAppears_2;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
 }
 
@@ -175,7 +175,7 @@ h1.hOne {
 
 .settingsAppears_3 {
 	animation-name: settingsAppears_3;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
 }
 
@@ -192,7 +192,7 @@ h1.hOne {
 
 .settingsAppears_4 {
 	animation-name: settingsAppears_4;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
 }
 
@@ -224,7 +224,7 @@ h1.hOne {
 
 .upMove {
 	animation-name: upMove;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
 }
 
@@ -250,7 +250,7 @@ h1.hOne {
 
 .fromNext_toBack {
 	animation-name: fromNext_toBack;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
 }
 
@@ -299,7 +299,7 @@ h1.hOne {
 
 .appears {
 	animation-name: appears;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
 }
 
@@ -314,7 +314,7 @@ h1.hOne {
 
 .downMove {
 	animation-name: downMove;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
 }
 
@@ -338,7 +338,7 @@ h1.hOne {
 
 .fromBack_toNext {
 	animation-name: fromBack_toNext;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
 }
 
