@@ -40,7 +40,7 @@ h1.hOne {
 }
 
 .backgroundButtons {
-	background-color: rgba(207,  234,  255, 0.90); 
+	background-color: rgba(38, 176, 255, 0.58); 
 		
 	position: fixed; 
 	bottom: 0; 
@@ -55,7 +55,7 @@ h1.hOne {
 	border-radius: 10px 10px 0px 0px;
 	opacity: 1;
 		
-	box-shadow: 5px 5px 15px rgba(122, 162, 168, 0.25);
+	box-shadow: 5px 5px 15px rgba(168, 123, 151, 0.25);
 }
 
 
