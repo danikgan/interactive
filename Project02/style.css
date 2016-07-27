@@ -53,6 +53,7 @@ h1.hOne {
 	display: inline-block; 
 	vertical-align: middle; 
 	width: 25%;
+	padding: 3% 0 0 0;
 	
 	background: rgba(252, 255, 215, 0.54);
 	border-radius: 10px;
