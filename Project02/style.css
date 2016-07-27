@@ -33,6 +33,9 @@ h1.hOne {
 	margin: 3% 0 3% 5%;
 }
 
+.hidden {
+	display: none;
+}
 
 
 /*----------------------------------- App Main -----------------------------------*/
@@ -69,7 +72,6 @@ h1.hOne {
 	width: 70%;
 	
 	position: fixed;
-	z-index: 10;
 	top: 20%;
 	left: 10%;
 	

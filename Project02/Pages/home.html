@@ -11,22 +11,71 @@
 	<link href="../../style.css" rel="stylesheet">
 	<link href="../../Files/icon.png" rel="icon">
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="../script.js"></script>
 </head>
 
 <body>
 	<div class="backgroundBody"></div>
 	
-	<div class="backgroundButtons">
-		<img src="../Files/Right.svg" class="next">
+	<div class="notHidden">
+		<div class="backgroundButtons downMove">
+			<img src="../Files/Right.svg" class="next fromBack_toNext normal">
+			
+			<img src="../Files/Settings.svg" class="settings downMove settingActivator">
+			
+			<img src="../Files/Statistics.svg" class="stats appears">
+		</div>
 		
-		<a href="settings_fromHome.html">
-			<img src="../Files/Settings.svg" class="settings">
-		</a>
 		
-		<img src="../Files/Statistics.svg" class="stats">
+		<div>
+			<div class="settingsChoices settingsVanishes" align="center" style="margin-top: 10%; opacity: 0;">
+				What is Mantra?
+			</div>
+			
+			<div class="settingsChoices settingsVanishes" align="center" style="margin-top: 30%; opacity: 0;">
+				Why doing it?
+			</div>
+			
+			<div class="settingsChoices settingsVanishes" align="center" style="margin-top: 50%; opacity: 0;">
+				Settings
+			</div>
+			
+			<div class="settingsChoices settingsVanishes" align="center" style="margin-top: 70%; opacity: 0;">
+				Credits
+			</div>
+		</div>
 	</div>
+	
+	
+	<div class="notHidden hidden">
+		<div class="backgroundButtons upMove" style="padding-bottom: 115%;">
+			<img src="../Files/Right.svg" class="next fromNext_toBack opposite settingActivator" style="margin-left: 5%;">
+			
+			<img src="../Files/Settings.svg" class="settings upMove" style="padding-bottom: 115%;">
+			
+			<img src="../Files/Statistics.svg" class="stats vanishes" style="opacity: 0;">
+		</div>
+		
+		<div>
+			<div class="settingsChoices settingsAppears_1" align="center" style="margin-top: 10%;">
+				What is Mantra?
+			</div>
+			
+			<div class="settingsChoices settingsAppears_2" align="center" style="margin-top: 30%;">
+				Why doing it?
+			</div>
+			
+			<div class="settingsChoices settingsAppears_3" align="center" style="margin-top: 50%;">
+				Settings
+			</div>
+			
+			<div class="settingsChoices settingsAppears_4" align="center" style="margin-top: 70%;">
+				Credits
+			</div>
+		</div>
+	</div>
+	
+	
+	
 	
 	<div align="center" class="allSliders">
 		<div class="sliders" align="center" 
@@ -94,8 +143,8 @@
 		</div>
 	</div>
 	
-	
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="../script.js"></script>
 </body>
 	
 </html>

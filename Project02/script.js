@@ -1,4 +1,8 @@
 $('document').ready(function(){
+	$('.settingActivator').click(function() {
+		$('.notHidden').toggle();
+	});
+	
 	/* For Mantra */
 	var integerMantra = 1;
 	$('.rightMantra_click').click(function(){
