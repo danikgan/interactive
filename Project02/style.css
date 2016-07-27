@@ -35,8 +35,6 @@ h1.hOne {
 
 
 
-
-
 /*----------------------------------- App Main -----------------------------------*/
 .sliders {
 	background-color: rgba(216, 255, 245, 0.8);
@@ -55,6 +53,11 @@ h1.hOne {
 	display: inline-block; 
 	vertical-align: middle; 
 	width: 25%;
+	
+	background: rgba(252, 255, 215, 0.54);
+	border-radius: 10px;
+	cursor: pointer;
+	z-index: 3;
 }
 
 .sliderDirection {
