@@ -1,7 +1,40 @@
 $('document').ready(function(){
+	
+	var initialAnimationRemoval = "yes";
+	initialAnimationRemoval = "no";	
 	$('.settingActivator').click(function() {
-		$('.notHidden').toggle();
+		if(initialAnimationRemoval == "yes"){
+			$('.closingAnimation').removeClass('downMove');
+			$('.closingAnimation').removeClass('downMove');
+			$('.closingAnimation').removeClass('settingsVanishes');
+			$('.closingAnimation').removeClass('appears');
+			$('.closingAnimation').removeClass('fromBack_toNext');
+			
+			initialAnimationRemoval = "no";
+			
+			$('.notHidden').toggle();
+		} else {
+					
+			$('.closingAnimation').addClass('downMove');
+			$('.closingAnimation').addClass('downMove');
+			$('.closingAnimation').addClass('settingsVanishes');
+			$('.closingAnimation').addClass('appears');
+			$('.closingAnimation').addClass('fromBack_toNext');
+			
+			$('.notHidden').toggle();
+		}
+		
+		
 	});
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	/* For Mantra */
 	var integerMantra = 1;

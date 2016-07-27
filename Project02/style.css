@@ -287,7 +287,7 @@ h1.hOne {
 
 
 /*----------------------------------- Settings to Home -----------------------------------*/
-.settingsVanishes {
+.closingAnimation.settingsVanishes {
 	animation-name: settingsVanishes;
     animation-duration: 1s;
     animation-iteration-count: 1;
@@ -302,7 +302,7 @@ h1.hOne {
     }
 }
 
-.appears {
+.closingAnimation.appears {
 	animation-name: appears;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
@@ -317,7 +317,7 @@ h1.hOne {
     }
 }
 
-.downMove {
+.closingAnimation.downMove {
 	animation-name: downMove;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
@@ -332,7 +332,7 @@ h1.hOne {
     }
 }
 
-.normal {
+.closingAnimation.normal {
 	-moz-transform: scaleX(1);
 	-o-transform: scaleX(1);
 	-webkit-transform: scaleX(1);
@@ -341,7 +341,7 @@ h1.hOne {
 	-ms-filter: "FlipH";
 }
 
-.fromBack_toNext {
+.closingAnimation.fromBack_toNext {
 	animation-name: fromBack_toNext;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
