@@ -11,8 +11,8 @@
 	<link href="../../style.css" rel="stylesheet">
 	<link href="../../Files/icon.png" rel="icon">
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
-	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="../script.js"></script>
 </head>
 
 <body>
@@ -28,51 +28,6 @@
 		<img src="../Files/Statistics.svg" class="stats">
 	</div>
 	
-	<script>
-		$('document').ready(function(){
-			var integer = 1;
-			$('.rightMantra_click').click(function(){
-				if(integer == 1){
-					$('.leftMantra').html('Unselect');
-					$('.middleMantra').html('Relax (selected)');
-					$('.rightMantra').html('Healing');
-					
-					integer = 2;
-				} else if(integer == 2){
-					$('.leftMantra').html('Relax');
-					$('.middleMantra').html('Healing (selected)');
-					$('.rightMantra').html('Love');
-					
-					integer = 3;
-				} else if(integer == 3){
-					$('.leftMantra').html('Healing');
-					$('.middleMantra').html('Love (selected)');
-					$('.rightMantra').html('Happyness');
-					
-					integer = 4;
-				} else if(integer == 4){
-					$('.leftMantra').html('Love');
-					$('.middleMantra').html('Happyness (selected)');
-					$('.rightMantra').html('Sleep');
-					
-					integer = 5;
-				} else if(integer == 5){
-					$('.leftMantra').html('Happyness');
-					$('.middleMantra').html('Sleep (selected)');
-					$('.rightMantra').html('Unselect');
-					
-					integer = 6;
-				} else {
-					$('.leftMantra').html('Sleep');
-					$('.middleMantra').html('Select Mantra');
-					$('.rightMantra').html('Relax');
-					
-					integer = 1;
-				}
-			});
-		});
-	</script>
-	
 	<div align="center" class="allSliders">
 		<div class="sliders" align="center" 
 			style="display: inline-block;vertical-align: middle;">
@@ -82,7 +37,7 @@
 			</div>
 		</div>
 
-		<div class="sliderLocation" style="margin-left: -100%;">
+		<div class="sliderLocation leftMantra_click" style="margin-left: -100%;">
 			<sub> 
 				<div class="leftMantra"> 
 					Sleep 
@@ -111,20 +66,28 @@
 		<div class="sliders" align="center" 
 			style="display: inline-block; vertical-align: middle;">
 				
-			<div style="margin: 2%; font-size: 125%; width: 35%;">
+			<div class="middleTiming" style="margin: 2%; font-size: 125%; width: 35%;">
 				Select Timing
 			</div>
 		</div>
 		
-		<div class="sliderLocation" style="margin-left: -100%;">
-			<sub>15 min</sub>
+		<div class="sliderLocation leftTiming_click" style="margin-left: -100%;">
+			<sub> 
+				<div class="leftTiming"> 
+					60 min 
+				</div> 
+			</sub>
 				
 			<img src="../Files/sliderLeft.svg" 
 			class="sliderDirection" >
 		</div>
 		
-		<div class="sliderLocation" style="margin-left: 46%;">
-			<sub> 5 min </sub>
+		<div class="sliderLocation rightTiming_click" style="margin-left: 46%;">
+			<sub> 
+				<div class="rightTiming"> 
+					5 min 
+				</div> 
+			</sub>
 			
 			<img src="../Files/sliderRight.svg" 
 			class="sliderDirection" >
