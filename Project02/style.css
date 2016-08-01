@@ -242,6 +242,23 @@ h1.hOne {
     }
 }
 
+.upMoveforStats {
+	animation-name: upMove-Stats;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes upMove-Stats {
+	0% {
+		padding-bottom: 0;
+		margin-left: 5%;
+    }
+    100% {
+	    padding-bottom: 115%;
+	    margin-left: 35%;
+    }
+}
+
 .opposite {
 	-moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
