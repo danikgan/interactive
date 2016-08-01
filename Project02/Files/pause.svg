@@ -1,0 +1,24 @@
+<svg width="87px" height="87px" viewBox="117 470 87 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="100%" cy="50%" fx="100%" fy="50%" r="100%" id="radialGradient-1">
+            <stop stop-color="#E82E0C" offset="0%"></stop>
+            <stop stop-color="#E76A19" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-2" cx="160.5" cy="508.5" r="32.5"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Oval" stroke="none" fill="none">
+        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+        <use stroke="#979797" stroke-width="1" fill-opacity="0.5" fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+    </g>
+    <path d="M151.5,495 L151.5,521" id="Line" stroke="#F0C6C6" stroke-width="7" stroke-linecap="square" fill="none"></path>
+    <path d="M169.5,495 L169.5,521" id="Line" stroke="#F0C6C6" stroke-width="7" stroke-linecap="square" fill="none"></path>
+</svg>
